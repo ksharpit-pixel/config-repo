@@ -1,2 +1,46 @@
+spring:
+  application:
+    name: FileUpload
+
+  datasource:
+    url: jdbc:mysql://localhost/fileuplaod
+    username: root
+    password: root123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: true
+
+# logging:
+#   level:
+#     org:
+#       springframework:
+#         web: debug
+
+# PostGreSql
+# spring:
+#   datasource:
+#     postgredb:
+#       jdbc-url: jdbc:postgresql://localhost/fileupload
+#       username: postgres
+#       password: root123
+#   jpa:
+#     hibernate:
+#       postgredb:
+#         ddl-auto: update
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7070/eureka
+
 polar:
   greeting: "Welcome to the catalog from the config server"
