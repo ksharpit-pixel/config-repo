@@ -12,8 +12,6 @@ spring:
 # spring.application.mysql.name=instafide
 
 # spring.jpa.properties.hibernate.jdbc.batch_size=500
-
-polar.greeting= local property
   jpa:
     hibernate:
       ddl-auto: update
@@ -36,7 +34,7 @@ server:
 #   client:
 #     service-url:
 #       defaultZone: http://localhost:7070/eureka
-
+# polar.greeting= local property
 management:
   endpoints:
     web:
