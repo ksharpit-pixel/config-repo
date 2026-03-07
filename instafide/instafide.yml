@@ -32,10 +32,10 @@ polar.greeting= local property
 server:
   port: 8090
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7070/eureka
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:7070/eureka
 
 management:
   endpoints:
