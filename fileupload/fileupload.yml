@@ -4,9 +4,9 @@ spring:
     username: root
     password: root123
     # postgredb:
-      url: jdbc:postgresql://localhost/fileupload
-      username: postgres
-      password: root123
+      # jdbcurl: jdbc:postgresql://localhost/fileupload
+      # username: postgres
+      # password: root123
       
   jpa:
     hibernate:
