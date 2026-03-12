@@ -1,6 +1,9 @@
 eureka:
   client:
-    register-with-eureka: true
-    fetch-registery: true
+    register-with-eureka: false
+    fetch-registery: false
     service-url:
-      defaultZone: http://localhost:7070/eureka
+      defaultZone: http://localhost:${server.port}/eureka/
+
+server:
+  port: 7070
