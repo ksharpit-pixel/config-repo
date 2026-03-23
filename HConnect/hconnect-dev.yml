@@ -10,6 +10,10 @@ spring:
     username: postgres
     password: root123
 
+autoconfigure:
+  exclude:
+    - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
   jpa:
     hibernate:
       ddl-auto: update
