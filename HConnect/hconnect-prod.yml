@@ -4,10 +4,9 @@ spring:
     # url: jdbc:mysql://localhost/hconnect
     # username: root
     # password: root123
-    postgredb:
-      jdbcurl: jdbc:postgresql://5431/hconnect
-      username: root
-      password: root123
+    url: jdbc:postgresql://localhost:5431/hconnect
+    username: postgres
+    password: root123
 
   jpa:
     hibernate:
