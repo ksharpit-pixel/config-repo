@@ -3,8 +3,8 @@ spring:
     # url: jdbc:mysql://localhost/hconnect
     # username: root
     # password: root123
-    postgredb:
-      jdbcurl: jdbc:postgresql://localhost/hconnect
+    # postgredb:
+      url: jdbc:postgresql://localhost/hconnect
       username: postgres
       password: root123
 
