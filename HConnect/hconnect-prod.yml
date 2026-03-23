@@ -1,0 +1,22 @@
+      #docker PROFILE
+spring:
+  datasource:
+    # url: jdbc:mysql://localhost/hconnect
+    # username: root
+    # password: root123
+    postgredb:
+      jdbcurl: jdbc:postgresql://localhost/hconnect
+      username: postgres
+      password: root123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+        generate-statistics: true
+
+server:
+  port: 8999
