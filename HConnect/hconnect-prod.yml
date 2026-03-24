@@ -5,7 +5,7 @@ spring:
     # username: root
     # password: root123
     url: jdbc:postgresql://localhost:5431/hconnect
-    username: postgres
+    username: user
     password: root123
 
   jpa:
