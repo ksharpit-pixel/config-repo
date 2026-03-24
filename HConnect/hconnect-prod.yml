@@ -16,6 +16,9 @@ spring:
       hibernate:
         format-sql: true
         generate-statistics: true
-
+  sql:
+    init:
+      mode: never
+      
 server:
   port: 8999
