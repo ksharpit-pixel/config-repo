@@ -1,8 +1,8 @@
       #docker PROFILE
 spring:
   datasource:
-    hikari:
-      connection-init-sql: SET TIME ZONE 'Asia/KolKata'
+    # hikari:
+    #   connection-init-sql: SET TIME ZONE 'Asia/KolKata'
     # url: jdbc:mysql://localhost/hconnect
     # username: root
     # password: root123
@@ -15,7 +15,7 @@ spring:
     password: password
 # spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    # database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
     show-sql: true
@@ -23,8 +23,8 @@ spring:
       hibernate:
         format-sql: true
         generate-statistics: true
-  jackson:
-    time-zone: Asia/Kolkata
+  # jackson:
+  #   time-zone: Asia/Kolkata
   sql:
     init:
       mode: never
