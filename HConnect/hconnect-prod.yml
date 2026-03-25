@@ -1,6 +1,8 @@
       #docker PROFILE
 spring:
   datasource:
+    hikari:
+      connection-init-sql: SET TIME ZONE 'Asia/KolKata'
     # url: jdbc:mysql://localhost/hconnect
     # username: root
     # password: root123
