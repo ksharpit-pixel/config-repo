@@ -15,7 +15,7 @@ spring:
     password: password
 # spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
   jpa:
-    # database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
     show-sql: true
