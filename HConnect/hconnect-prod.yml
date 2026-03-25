@@ -24,7 +24,7 @@ spring:
         format-sql: true
         generate-statistics: true
         jdbc:
-          time_zone: Asia/Kolkata
+          time-zone: Asia/Kolkata
   # jackson:
   #   time-zone: Asia/Kolkata
   sql:
