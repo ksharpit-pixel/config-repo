@@ -22,6 +22,8 @@ spring:
       hibernate:
         format-sql: true
         generate-statistics: true
+  jackson:
+    time-zone: Asia/Kolkata
   sql:
     init:
       mode: never
