@@ -1,18 +1,23 @@
       #docker PROFILE
 spring:
   datasource:
-    # hikari:
-    #   connection-init-sql: SET TIME ZONE 'Asia/KolKata'
+   
     # url: jdbc:mysql://localhost/hconnect
     # username: root
     # password: root123
     # url: jdbc:postgresql://localhost:5431/hconnect?options=-c%20TimeZone=Asia/Kolkata
+    # url: jdbc:postgresql://localhost:5432/hconnect
     url: jdbc:postgresql://localhost:5431/hconnect
     # url: jdbc:postgresql://localhost:5432/hconnect
     username: user
     # username: postgres
     # password: root123
     password: password
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
+    # connection-init-sql: SET TIME ZONE 'Asia/KolKata'
+    
 # spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
